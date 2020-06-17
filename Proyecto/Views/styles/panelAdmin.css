@@ -1,0 +1,54 @@
+#panel1, #panel2, #panel3{
+	height: 350px;
+	border: 3px solid gray;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#panel1 img, #panel2 img, #panel3 img{
+	width: 100px;
+	height: 100px;
+	margin: 65px auto;
+	opacity: 0.5;
+	transition: 0.5s;
+}
+#panel1 h2, #panel2 h2, #panel3 h2{
+	color: gray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid gray;
+	transition: 0.5s;
+}
+#panel1:hover{
+	background-color:#fa8292;
+	border: 3px solid red;
+	transition: 0.5s;
+}
+#panel2:hover{
+	background-color: #bedafa;
+	border: 3px solid blue;
+	transition: 0.5s;
+}
+#panel3:hover{
+	background-color: #c4fabe;
+	border: 3px solid green;
+	transition: 0.5s;
+}
+#panel1:hover h2{
+	color: black;
+	border-bottom: 3px solid red;
+}
+#panel2:hover h2{
+	color: black;
+	border-bottom: 3px solid blue;
+}
+#panel3:hover h2{
+	color: black;
+	border-bottom: 3px solid green;
+}
+#panel1:hover img,#panel2:hover img,#panel3:hover img{
+	width: 150px;
+	height: 150px;
+	opacity: 1;
+	transition: 0.5s;
+}

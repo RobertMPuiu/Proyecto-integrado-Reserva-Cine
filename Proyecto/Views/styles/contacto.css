@@ -1,0 +1,36 @@
+#contacto1{
+	background-color:#fa8292;
+	border: 3px solid red;
+}
+#contacto2{
+	background-color: #bedafa;
+	border: 3px solid blue;
+}
+#contacto3{
+	background-color: #c4fabe;
+	border: 3px solid green;
+}
+#contacto1 h2{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid red;
+}
+#contacto2 h2{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid blue;
+}
+#contacto3 h2{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid green;
+}
+
+#contacto1 #informacion{
+	font-size: 1.3em;
+	padding: 15px;
+}
+#contacto3 #informacion{
+	font-size: 1.3em;
+	padding: 15px;
+}
